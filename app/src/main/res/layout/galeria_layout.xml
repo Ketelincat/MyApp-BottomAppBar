@@ -29,4 +29,9 @@
             android:text="@string/passaros" />
     </com.google.android.material.tabs.TabLayout>
 
+    <ListView
+        android:id="@+id/idListaAnimais"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
