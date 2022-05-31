@@ -7,6 +7,7 @@
     tools:context=".GaleriaActivity">
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/idTableLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -29,11 +30,10 @@
             android:text="@string/passaros" />
     </com.google.android.material.tabs.TabLayout>
 
-    <ListView
-        android:id="@+id/idListaAnimais"
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/idViewPager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <include layout="@layout/modelo_animais_cachorro"/>
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
